@@ -1,0 +1,58 @@
+html,body{
+   height:100%;
+   margin:0;}
+
+/*navigation*/
+.nav_height{
+      height: 13vh;
+      z-index: 1;
+      background-color: rgba(3, 3, 3, 0.014); 
+   }
+
+/* home page*/
+.bg-height{
+   background-image: url(bg3.avif);
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.text{
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: left;
+   font-size: 25px;
+   letter-spacing: 8px;
+   text-transform: uppercase;
+   
+}
+
+.text-bg{
+   background: #393636;
+   color: aliceblue;
+   padding: 20px;
+}
+
+/*contact*/
+#cnt-height{
+   height:87vh;
+}
+
+/*media queries*/
+@media (max-width:507px){
+   .text{
+      font-size: 18px;
+   letter-spacing: 3px;
+   }
+
+   .text-bg{
+      padding: 10px;
+   }
+
+   .cnt{
+      font-size: 12px;
+   }
+}
